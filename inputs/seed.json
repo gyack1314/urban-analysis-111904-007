@@ -6969,8 +6969,8 @@
     {
       "request": "V0",
       "component": "C0000",
-      "mode": "random",
-      "selection_probability": 0.2,
+      "mode": "targeted",
+      "selection_probability": null,
       "stratum": "train-beam",
       "requested_at": "2025-01-21T04:00:00+08:00"
     },
@@ -6999,18 +6999,10 @@
       "requested_at": "2025-01-25T04:00:00+08:00"
     },
     {
-      "request": "V5",
-      "component": "C0005",
-      "mode": "random",
-      "selection_probability": 0.2,
-      "stratum": "train-joint",
-      "requested_at": "2025-01-26T04:00:00+08:00"
-    },
-    {
       "request": "V6",
       "component": "C0006",
-      "mode": "targeted",
-      "selection_probability": null,
+      "mode": "random",
+      "selection_probability": 0.18518518518518517,
       "stratum": "train-beam",
       "requested_at": "2025-01-27T04:00:00+08:00"
     },
@@ -7021,14 +7013,6 @@
       "selection_probability": null,
       "stratum": "train-panel",
       "requested_at": "2025-01-28T04:00:00+08:00"
-    },
-    {
-      "request": "V10",
-      "component": "C0010",
-      "mode": "random",
-      "selection_probability": 0.2,
-      "stratum": "train-panel",
-      "requested_at": "2025-01-21T04:00:00+08:00"
     },
     {
       "request": "V11",
@@ -7042,23 +7026,31 @@
       "request": "V15",
       "component": "C0015",
       "mode": "random",
-      "selection_probability": 0.2,
+      "selection_probability": 0.18518518518518517,
       "stratum": "train-beam",
       "requested_at": "2025-01-26T04:00:00+08:00"
     },
     {
       "request": "V20",
       "component": "C0020",
-      "mode": "random",
-      "selection_probability": 0.2,
+      "mode": "targeted",
+      "selection_probability": null,
       "stratum": "train-joint",
       "requested_at": "2025-01-21T04:00:00+08:00"
     },
     {
+      "request": "V23",
+      "component": "C0023",
+      "mode": "random",
+      "selection_probability": 0.19230769230769232,
+      "stratum": "train-joint",
+      "requested_at": "2025-01-24T04:00:00+08:00"
+    },
+    {
       "request": "V24",
       "component": "C0024",
-      "mode": "targeted",
-      "selection_probability": null,
+      "mode": "random",
+      "selection_probability": 0.18518518518518517,
       "stratum": "train-beam",
       "requested_at": "2025-01-25T04:00:00+08:00"
     },
@@ -7066,25 +7058,33 @@
       "request": "V25",
       "component": "C0025",
       "mode": "random",
-      "selection_probability": 0.2,
+      "selection_probability": 0.18518518518518517,
       "stratum": "train-panel",
       "requested_at": "2025-01-26T04:00:00+08:00"
     },
     {
       "request": "V29",
       "component": "C0029",
-      "mode": "targeted",
-      "selection_probability": null,
+      "mode": "random",
+      "selection_probability": 0.19230769230769232,
       "stratum": "train-joint",
       "requested_at": "2025-01-30T04:00:00+08:00"
     },
     {
       "request": "V30",
       "component": "C0030",
-      "mode": "random",
-      "selection_probability": 0.2,
+      "mode": "targeted",
+      "selection_probability": null,
       "stratum": "train-beam",
       "requested_at": "2025-01-21T04:00:00+08:00"
+    },
+    {
+      "request": "V31",
+      "component": "C0031",
+      "mode": "random",
+      "selection_probability": 0.18518518518518517,
+      "stratum": "train-panel",
+      "requested_at": "2025-01-22T04:00:00+08:00"
     },
     {
       "request": "V32",
@@ -7095,12 +7095,12 @@
       "requested_at": "2025-01-23T04:00:00+08:00"
     },
     {
-      "request": "V35",
-      "component": "C0035",
+      "request": "V38",
+      "component": "C0038",
       "mode": "random",
-      "selection_probability": 0.2,
+      "selection_probability": 0.19230769230769232,
       "stratum": "train-joint",
-      "requested_at": "2025-01-26T04:00:00+08:00"
+      "requested_at": "2025-01-29T04:00:00+08:00"
     },
     {
       "request": "V39",
@@ -7114,15 +7114,15 @@
       "request": "V40",
       "component": "C0040",
       "mode": "random",
-      "selection_probability": 0.2,
+      "selection_probability": 0.18518518518518517,
       "stratum": "train-panel",
       "requested_at": "2025-01-21T04:00:00+08:00"
     },
     {
       "request": "V41",
       "component": "C0041",
-      "mode": "targeted",
-      "selection_probability": null,
+      "mode": "random",
+      "selection_probability": 0.19230769230769232,
       "stratum": "train-joint",
       "requested_at": "2025-01-22T04:00:00+08:00"
     },
@@ -7138,15 +7138,23 @@
       "request": "V45",
       "component": "C0045",
       "mode": "random",
-      "selection_probability": 0.2,
+      "selection_probability": 0.18518518518518517,
       "stratum": "train-beam",
       "requested_at": "2025-01-26T04:00:00+08:00"
     },
     {
+      "request": "V46",
+      "component": "C0046",
+      "mode": "random",
+      "selection_probability": 0.18518518518518517,
+      "stratum": "train-panel",
+      "requested_at": "2025-01-27T04:00:00+08:00"
+    },
+    {
       "request": "V50",
       "component": "C0050",
-      "mode": "random",
-      "selection_probability": 0.2,
+      "mode": "targeted",
+      "selection_probability": null,
       "stratum": "train-joint",
       "requested_at": "2025-01-21T04:00:00+08:00"
     },
@@ -7161,8 +7169,8 @@
     {
       "request": "V55",
       "component": "C0055",
-      "mode": "random",
-      "selection_probability": 0.2,
+      "mode": "targeted",
+      "selection_probability": null,
       "stratum": "train-panel",
       "requested_at": "2025-01-26T04:00:00+08:00"
     },
@@ -7185,8 +7193,8 @@
     {
       "request": "V60",
       "component": "C0060",
-      "mode": "random",
-      "selection_probability": 0.2,
+      "mode": "targeted",
+      "selection_probability": null,
       "stratum": "train-beam",
       "requested_at": "2025-01-21T04:00:00+08:00"
     },
@@ -7201,8 +7209,8 @@
     {
       "request": "V65",
       "component": "C0065",
-      "mode": "random",
-      "selection_probability": 0.2,
+      "mode": "targeted",
+      "selection_probability": null,
       "stratum": "train-joint",
       "requested_at": "2025-01-26T04:00:00+08:00"
     },
@@ -7223,18 +7231,18 @@
       "requested_at": "2025-01-29T04:00:00+08:00"
     },
     {
-      "request": "V70",
-      "component": "C0070",
+      "request": "V71",
+      "component": "C0071",
       "mode": "random",
-      "selection_probability": 0.2,
-      "stratum": "train-panel",
-      "requested_at": "2025-01-21T04:00:00+08:00"
+      "selection_probability": 0.19230769230769232,
+      "stratum": "train-joint",
+      "requested_at": "2025-01-22T04:00:00+08:00"
     },
     {
       "request": "V73",
       "component": "C0073",
-      "mode": "targeted",
-      "selection_probability": null,
+      "mode": "random",
+      "selection_probability": 0.18518518518518517,
       "stratum": "train-panel",
       "requested_at": "2025-01-24T04:00:00+08:00"
     },
@@ -7242,7 +7250,7 @@
       "request": "V75",
       "component": "C0075",
       "mode": "random",
-      "selection_probability": 0.2,
+      "selection_probability": 0.18518518518518517,
       "stratum": "train-beam",
       "requested_at": "2025-01-26T04:00:00+08:00"
     },
@@ -7257,8 +7265,8 @@
     {
       "request": "V80",
       "component": "C0080",
-      "mode": "random",
-      "selection_probability": 0.2,
+      "mode": "targeted",
+      "selection_probability": null,
       "stratum": "validate-joint",
       "requested_at": "2025-03-07T04:00:00+08:00"
     },
@@ -7279,12 +7287,20 @@
       "requested_at": "2025-03-09T04:00:00+08:00"
     },
     {
-      "request": "V85",
-      "component": "C0085",
+      "request": "V87",
+      "component": "C0087",
       "mode": "random",
-      "selection_probability": 0.2,
+      "selection_probability": 0.18518518518518517,
+      "stratum": "validate-beam",
+      "requested_at": "2025-03-14T04:00:00+08:00"
+    },
+    {
+      "request": "V88",
+      "component": "C0088",
+      "mode": "random",
+      "selection_probability": 0.19230769230769232,
       "stratum": "validate-panel",
-      "requested_at": "2025-03-12T04:00:00+08:00"
+      "requested_at": "2025-03-15T04:00:00+08:00"
     },
     {
       "request": "V89",
@@ -7295,14 +7311,6 @@
       "requested_at": "2025-03-16T04:00:00+08:00"
     },
     {
-      "request": "V90",
-      "component": "C0090",
-      "mode": "random",
-      "selection_probability": 0.2,
-      "stratum": "validate-beam",
-      "requested_at": "2025-03-07T04:00:00+08:00"
-    },
-    {
       "request": "V91",
       "component": "C0091",
       "mode": "targeted",
@@ -7311,12 +7319,36 @@
       "requested_at": "2025-03-08T04:00:00+08:00"
     },
     {
+      "request": "V92",
+      "component": "C0092",
+      "mode": "random",
+      "selection_probability": 0.18518518518518517,
+      "stratum": "validate-joint",
+      "requested_at": "2025-03-09T04:00:00+08:00"
+    },
+    {
+      "request": "V93",
+      "component": "C0093",
+      "mode": "random",
+      "selection_probability": 0.18518518518518517,
+      "stratum": "validate-beam",
+      "requested_at": "2025-03-10T04:00:00+08:00"
+    },
+    {
       "request": "V95",
       "component": "C0095",
-      "mode": "random",
-      "selection_probability": 0.2,
+      "mode": "targeted",
+      "selection_probability": null,
       "stratum": "validate-joint",
       "requested_at": "2025-03-12T04:00:00+08:00"
+    },
+    {
+      "request": "V96",
+      "component": "C0096",
+      "mode": "random",
+      "selection_probability": 0.18518518518518517,
+      "stratum": "validate-beam",
+      "requested_at": "2025-03-13T04:00:00+08:00"
     },
     {
       "request": "V97",
@@ -7337,8 +7369,8 @@
     {
       "request": "V100",
       "component": "C0100",
-      "mode": "random",
-      "selection_probability": 0.2,
+      "mode": "targeted",
+      "selection_probability": null,
       "stratum": "validate-panel",
       "requested_at": "2025-03-07T04:00:00+08:00"
     },
@@ -7351,20 +7383,12 @@
       "requested_at": "2025-03-09T04:00:00+08:00"
     },
     {
-      "request": "V105",
-      "component": "C0105",
+      "request": "V106",
+      "component": "C0106",
       "mode": "random",
-      "selection_probability": 0.2,
-      "stratum": "validate-beam",
-      "requested_at": "2025-03-12T04:00:00+08:00"
-    },
-    {
-      "request": "V110",
-      "component": "C0110",
-      "mode": "random",
-      "selection_probability": 0.2,
-      "stratum": "validate-joint",
-      "requested_at": "2025-03-07T04:00:00+08:00"
+      "selection_probability": 0.19230769230769232,
+      "stratum": "validate-panel",
+      "requested_at": "2025-03-13T04:00:00+08:00"
     },
     {
       "request": "V114",
@@ -7377,16 +7401,32 @@
     {
       "request": "V115",
       "component": "C0115",
-      "mode": "random",
-      "selection_probability": 0.2,
+      "mode": "targeted",
+      "selection_probability": null,
       "stratum": "validate-panel",
       "requested_at": "2025-03-12T04:00:00+08:00"
     },
     {
+      "request": "V117",
+      "component": "C0117",
+      "mode": "random",
+      "selection_probability": 0.18518518518518517,
+      "stratum": "validate-beam",
+      "requested_at": "2025-03-14T04:00:00+08:00"
+    },
+    {
+      "request": "V119",
+      "component": "C0119",
+      "mode": "random",
+      "selection_probability": 0.18518518518518517,
+      "stratum": "validate-joint",
+      "requested_at": "2025-03-16T04:00:00+08:00"
+    },
+    {
       "request": "V120",
       "component": "C0120",
-      "mode": "random",
-      "selection_probability": 0.2,
+      "mode": "targeted",
+      "selection_probability": null,
       "stratum": "validate-beam",
       "requested_at": "2025-03-07T04:00:00+08:00"
     },
@@ -7410,7 +7450,7 @@
       "request": "V125",
       "component": "C0125",
       "mode": "random",
-      "selection_probability": 0.2,
+      "selection_probability": 0.18518518518518517,
       "stratum": "validate-joint",
       "requested_at": "2025-03-12T04:00:00+08:00"
     },
@@ -7425,8 +7465,8 @@
     {
       "request": "V130",
       "component": "C0130",
-      "mode": "random",
-      "selection_probability": 0.2,
+      "mode": "targeted",
+      "selection_probability": null,
       "stratum": "validate-panel",
       "requested_at": "2025-03-07T04:00:00+08:00"
     },
@@ -7449,8 +7489,8 @@
     {
       "request": "V135",
       "component": "C0135",
-      "mode": "random",
-      "selection_probability": 0.2,
+      "mode": "targeted",
+      "selection_probability": null,
       "stratum": "validate-beam",
       "requested_at": "2025-03-12T04:00:00+08:00"
     },
@@ -7473,8 +7513,8 @@
     {
       "request": "V140",
       "component": "C0140",
-      "mode": "random",
-      "selection_probability": 0.2,
+      "mode": "targeted",
+      "selection_probability": null,
       "stratum": "validate-joint",
       "requested_at": "2025-03-07T04:00:00+08:00"
     },
@@ -7487,12 +7527,12 @@
       "requested_at": "2025-03-10T04:00:00+08:00"
     },
     {
-      "request": "V145",
-      "component": "C0145",
+      "request": "V146",
+      "component": "C0146",
       "mode": "random",
-      "selection_probability": 0.2,
-      "stratum": "validate-panel",
-      "requested_at": "2025-03-12T04:00:00+08:00"
+      "selection_probability": 0.18518518518518517,
+      "stratum": "validate-joint",
+      "requested_at": "2025-03-13T04:00:00+08:00"
     },
     {
       "request": "V148",
@@ -7503,12 +7543,28 @@
       "requested_at": "2025-03-15T04:00:00+08:00"
     },
     {
+      "request": "V149",
+      "component": "C0149",
+      "mode": "random",
+      "selection_probability": 0.18518518518518517,
+      "stratum": "validate-joint",
+      "requested_at": "2025-03-16T04:00:00+08:00"
+    },
+    {
       "request": "V150",
       "component": "C0150",
       "mode": "random",
-      "selection_probability": 0.2,
+      "selection_probability": 0.18518518518518517,
       "stratum": "validate-beam",
       "requested_at": "2025-03-07T04:00:00+08:00"
+    },
+    {
+      "request": "V151",
+      "component": "C0151",
+      "mode": "random",
+      "selection_probability": 0.19230769230769232,
+      "stratum": "validate-panel",
+      "requested_at": "2025-03-08T04:00:00+08:00"
     },
     {
       "request": "V152",
@@ -7527,12 +7583,20 @@
       "requested_at": "2025-03-10T04:00:00+08:00"
     },
     {
-      "request": "V155",
-      "component": "C0155",
+      "request": "V154",
+      "component": "C0154",
       "mode": "random",
-      "selection_probability": 0.2,
-      "stratum": "validate-joint",
-      "requested_at": "2025-03-12T04:00:00+08:00"
+      "selection_probability": 0.19230769230769232,
+      "stratum": "validate-panel",
+      "requested_at": "2025-03-11T04:00:00+08:00"
+    },
+    {
+      "request": "V157",
+      "component": "C0157",
+      "mode": "random",
+      "selection_probability": 0.19230769230769232,
+      "stratum": "validate-panel",
+      "requested_at": "2025-03-14T04:00:00+08:00"
     },
     {
       "request": "V159",
@@ -7541,14 +7605,6 @@
       "selection_probability": null,
       "stratum": "validate-beam",
       "requested_at": "2025-03-16T04:00:00+08:00"
-    },
-    {
-      "request": "V160",
-      "component": "C0160",
-      "mode": "random",
-      "selection_probability": 0.2,
-      "stratum": "future-panel",
-      "requested_at": "2025-04-21T04:00:00+08:00"
     },
     {
       "request": "V163",
@@ -7561,8 +7617,8 @@
     {
       "request": "V164",
       "component": "C0164",
-      "mode": "targeted",
-      "selection_probability": null,
+      "mode": "random",
+      "selection_probability": 0.2,
       "stratum": "future-joint",
       "requested_at": "2025-04-25T04:00:00+08:00"
     },
@@ -7577,8 +7633,8 @@
     {
       "request": "V170",
       "component": "C0170",
-      "mode": "random",
-      "selection_probability": 0.2,
+      "mode": "targeted",
+      "selection_probability": null,
       "stratum": "future-joint",
       "requested_at": "2025-04-21T04:00:00+08:00"
     },
@@ -7607,20 +7663,20 @@
       "requested_at": "2025-04-25T04:00:00+08:00"
     },
     {
-      "request": "V175",
-      "component": "C0175",
-      "mode": "random",
-      "selection_probability": 0.2,
-      "stratum": "future-panel",
-      "requested_at": "2025-04-26T04:00:00+08:00"
-    },
-    {
-      "request": "V180",
-      "component": "C0180",
+      "request": "V177",
+      "component": "C0177",
       "mode": "random",
       "selection_probability": 0.2,
       "stratum": "future-beam",
-      "requested_at": "2025-04-21T04:00:00+08:00"
+      "requested_at": "2025-04-28T04:00:00+08:00"
+    },
+    {
+      "request": "V181",
+      "component": "C0181",
+      "mode": "random",
+      "selection_probability": 0.2,
+      "stratum": "future-panel",
+      "requested_at": "2025-04-22T04:00:00+08:00"
     },
     {
       "request": "V183",
@@ -7631,12 +7687,12 @@
       "requested_at": "2025-04-24T04:00:00+08:00"
     },
     {
-      "request": "V185",
-      "component": "C0185",
+      "request": "V187",
+      "component": "C0187",
       "mode": "random",
       "selection_probability": 0.2,
-      "stratum": "future-joint",
-      "requested_at": "2025-04-26T04:00:00+08:00"
+      "stratum": "future-panel",
+      "requested_at": "2025-04-28T04:00:00+08:00"
     },
     {
       "request": "V188",
@@ -7647,12 +7703,12 @@
       "requested_at": "2025-04-29T04:00:00+08:00"
     },
     {
-      "request": "V190",
-      "component": "C0190",
+      "request": "V192",
+      "component": "C0192",
       "mode": "random",
       "selection_probability": 0.2,
-      "stratum": "future-panel",
-      "requested_at": "2025-04-21T04:00:00+08:00"
+      "stratum": "future-beam",
+      "requested_at": "2025-04-23T04:00:00+08:00"
     },
     {
       "request": "V193",
@@ -7671,12 +7727,12 @@
       "requested_at": "2025-04-25T04:00:00+08:00"
     },
     {
-      "request": "V195",
-      "component": "C0195",
+      "request": "V197",
+      "component": "C0197",
       "mode": "random",
       "selection_probability": 0.2,
-      "stratum": "future-beam",
-      "requested_at": "2025-04-26T04:00:00+08:00"
+      "stratum": "future-joint",
+      "requested_at": "2025-04-28T04:00:00+08:00"
     },
     {
       "request": "V198",
@@ -7695,28 +7751,36 @@
       "requested_at": "2025-04-30T04:00:00+08:00"
     },
     {
-      "request": "V200",
-      "component": "C0200",
+      "request": "V202",
+      "component": "C0202",
       "mode": "random",
       "selection_probability": 0.2,
-      "stratum": "future-joint",
-      "requested_at": "2025-04-21T04:00:00+08:00"
+      "stratum": "future-panel",
+      "requested_at": "2025-04-23T04:00:00+08:00"
     },
     {
       "request": "V203",
       "component": "C0203",
-      "mode": "targeted",
-      "selection_probability": null,
+      "mode": "random",
+      "selection_probability": 0.2,
       "stratum": "future-joint",
       "requested_at": "2025-04-24T04:00:00+08:00"
     },
     {
       "request": "V205",
       "component": "C0205",
-      "mode": "random",
-      "selection_probability": 0.2,
+      "mode": "targeted",
+      "selection_probability": null,
       "stratum": "future-panel",
       "requested_at": "2025-04-26T04:00:00+08:00"
+    },
+    {
+      "request": "V206",
+      "component": "C0206",
+      "mode": "random",
+      "selection_probability": 0.2,
+      "stratum": "future-joint",
+      "requested_at": "2025-04-27T04:00:00+08:00"
     },
     {
       "request": "V207",
@@ -7727,28 +7791,12 @@
       "requested_at": "2025-04-28T04:00:00+08:00"
     },
     {
-      "request": "V210",
-      "component": "C0210",
-      "mode": "random",
-      "selection_probability": 0.2,
-      "stratum": "future-beam",
-      "requested_at": "2025-04-21T04:00:00+08:00"
-    },
-    {
       "request": "V211",
       "component": "C0211",
-      "mode": "targeted",
-      "selection_probability": null,
-      "stratum": "future-panel",
-      "requested_at": "2025-04-22T04:00:00+08:00"
-    },
-    {
-      "request": "V215",
-      "component": "C0215",
       "mode": "random",
       "selection_probability": 0.2,
-      "stratum": "future-joint",
-      "requested_at": "2025-04-26T04:00:00+08:00"
+      "stratum": "future-panel",
+      "requested_at": "2025-04-22T04:00:00+08:00"
     },
     {
       "request": "V217",
@@ -7759,52 +7807,12 @@
       "requested_at": "2025-04-28T04:00:00+08:00"
     },
     {
-      "request": "V220",
-      "component": "C0220",
+      "request": "V219",
+      "component": "C0219",
       "mode": "random",
       "selection_probability": 0.2,
-      "stratum": "future-new-panel",
-      "requested_at": "2025-04-21T04:00:00+08:00"
-    },
-    {
-      "request": "V225",
-      "component": "C0225",
-      "mode": "random",
-      "selection_probability": 0.2,
-      "stratum": "future-new-panel",
-      "requested_at": "2025-04-26T04:00:00+08:00"
-    },
-    {
-      "request": "V230",
-      "component": "C0230",
-      "mode": "random",
-      "selection_probability": 0.2,
-      "stratum": "future-new-panel",
-      "requested_at": "2025-04-21T04:00:00+08:00"
-    },
-    {
-      "request": "V235",
-      "component": "C0235",
-      "mode": "random",
-      "selection_probability": 0.2,
-      "stratum": "future-new-panel",
-      "requested_at": "2025-04-26T04:00:00+08:00"
-    },
-    {
-      "request": "V237",
-      "component": "C0237",
-      "mode": "targeted",
-      "selection_probability": null,
-      "stratum": "future-new-panel",
-      "requested_at": "2025-04-28T04:00:00+08:00"
-    },
-    {
-      "request": "V238",
-      "component": "C0238",
-      "mode": "targeted",
-      "selection_probability": null,
-      "stratum": "future-new-panel",
-      "requested_at": "2025-04-29T04:00:00+08:00"
+      "stratum": "future-beam",
+      "requested_at": "2025-04-30T04:00:00+08:00"
     }
   ],
   "verification_results": [
@@ -7836,7 +7844,7 @@
       "observed_at": "2025-01-26T00:00:00+08:00",
       "known_at": "2025-01-28T00:00:00+08:00",
       "repair_before": false,
-      "result": "defect"
+      "result": "pass"
     },
     {
       "request": "V4",
@@ -7849,16 +7857,6 @@
       "result": "pass"
     },
     {
-      "request": "V5",
-      "component": "C0005",
-      "sample_scope": "component",
-      "sample_id": "C0005-sample",
-      "observed_at": "2025-01-28T00:00:00+08:00",
-      "known_at": "2025-01-30T00:00:00+08:00",
-      "repair_before": false,
-      "result": "pass"
-    },
-    {
       "request": "V6",
       "component": "C0006",
       "sample_scope": "component",
@@ -7866,7 +7864,7 @@
       "observed_at": "2025-01-29T00:00:00+08:00",
       "known_at": "2025-01-31T00:00:00+08:00",
       "repair_before": false,
-      "result": "defect"
+      "result": "pass"
     },
     {
       "request": "V7",
@@ -7875,16 +7873,6 @@
       "sample_id": "C0007-sample",
       "observed_at": "2025-01-30T00:00:00+08:00",
       "known_at": "2025-03-14T00:00:00+08:00",
-      "repair_before": false,
-      "result": "pass"
-    },
-    {
-      "request": "V10",
-      "component": "C0010",
-      "sample_scope": "component",
-      "sample_id": "C0010-sample",
-      "observed_at": "2025-01-23T00:00:00+08:00",
-      "known_at": "2025-01-25T00:00:00+08:00",
       "repair_before": false,
       "result": "pass"
     },
@@ -7916,6 +7904,16 @@
       "observed_at": "2025-01-23T00:00:00+08:00",
       "known_at": "2025-01-25T00:00:00+08:00",
       "repair_before": false,
+      "result": "defect"
+    },
+    {
+      "request": "V23",
+      "component": "C0023",
+      "sample_scope": "component",
+      "sample_id": "C0023-sample",
+      "observed_at": "2025-01-26T00:00:00+08:00",
+      "known_at": "2025-01-28T00:00:00+08:00",
+      "repair_before": true,
       "result": "pass"
     },
     {
@@ -7926,7 +7924,7 @@
       "observed_at": "2025-01-27T00:00:00+08:00",
       "known_at": "2025-01-29T00:00:00+08:00",
       "repair_before": false,
-      "result": "pass"
+      "result": "defect"
     },
     {
       "request": "V25",
@@ -7956,6 +7954,16 @@
       "observed_at": "2025-01-23T00:00:00+08:00",
       "known_at": "2025-01-25T00:00:00+08:00",
       "repair_before": false,
+      "result": "pass"
+    },
+    {
+      "request": "V31",
+      "component": "C0031",
+      "sample_scope": "component",
+      "sample_id": "C0031-sample",
+      "observed_at": "2025-01-24T00:00:00+08:00",
+      "known_at": "2025-01-26T00:00:00+08:00",
+      "repair_before": false,
       "result": "defect"
     },
     {
@@ -7969,14 +7977,14 @@
       "result": "defect"
     },
     {
-      "request": "V35",
-      "component": "C0035",
+      "request": "V38",
+      "component": "C0038",
       "sample_scope": "component",
-      "sample_id": "C0035-sample",
-      "observed_at": "2025-01-28T00:00:00+08:00",
-      "known_at": "2025-01-30T00:00:00+08:00",
+      "sample_id": "C0038-sample",
+      "observed_at": "2025-01-31T00:00:00+08:00",
+      "known_at": "2025-02-02T00:00:00+08:00",
       "repair_before": false,
-      "result": "pass"
+      "result": "defect"
     },
     {
       "request": "V39",
@@ -7986,7 +7994,7 @@
       "observed_at": "2025-02-01T00:00:00+08:00",
       "known_at": "2025-02-03T00:00:00+08:00",
       "repair_before": false,
-      "result": "pass"
+      "result": "defect"
     },
     {
       "request": "V40",
@@ -7996,7 +8004,7 @@
       "observed_at": "2025-01-23T00:00:00+08:00",
       "known_at": "2025-01-25T00:00:00+08:00",
       "repair_before": false,
-      "result": "defect"
+      "result": "pass"
     },
     {
       "request": "V41",
@@ -8016,7 +8024,7 @@
       "observed_at": "2025-01-26T00:00:00+08:00",
       "known_at": "2025-01-28T00:00:00+08:00",
       "repair_before": false,
-      "result": "pass"
+      "result": "defect"
     },
     {
       "request": "V45",
@@ -8026,6 +8034,16 @@
       "observed_at": "2025-01-28T00:00:00+08:00",
       "known_at": "2025-01-30T00:00:00+08:00",
       "repair_before": false,
+      "result": "pass"
+    },
+    {
+      "request": "V46",
+      "component": "C0046",
+      "sample_scope": "component",
+      "sample_id": "C0046-sample",
+      "observed_at": "2025-01-29T00:00:00+08:00",
+      "known_at": "2025-01-31T00:00:00+08:00",
+      "repair_before": true,
       "result": "pass"
     },
     {
@@ -8046,7 +8064,7 @@
       "observed_at": "2025-01-25T00:00:00+08:00",
       "known_at": "2025-01-27T00:00:00+08:00",
       "repair_before": false,
-      "result": "defect"
+      "result": "pass"
     },
     {
       "request": "V55",
@@ -8076,7 +8094,7 @@
       "observed_at": "2025-01-31T00:00:00+08:00",
       "known_at": "2025-02-02T00:00:00+08:00",
       "repair_before": false,
-      "result": "pass"
+      "result": "defect"
     },
     {
       "request": "V60",
@@ -8096,7 +8114,7 @@
       "observed_at": "2025-01-26T00:00:00+08:00",
       "known_at": "2025-01-28T00:00:00+08:00",
       "repair_before": false,
-      "result": "pass"
+      "result": "defect"
     },
     {
       "request": "V65",
@@ -8116,7 +8134,7 @@
       "observed_at": "2025-01-29T00:00:00+08:00",
       "known_at": "2025-01-31T00:00:00+08:00",
       "repair_before": false,
-      "result": "defect"
+      "result": "pass"
     },
     {
       "request": "V68",
@@ -8129,14 +8147,14 @@
       "result": "pass"
     },
     {
-      "request": "V70",
-      "component": "C0070",
+      "request": "V71",
+      "component": "C0071",
       "sample_scope": "component",
-      "sample_id": "C0070-sample",
-      "observed_at": "2025-01-23T00:00:00+08:00",
-      "known_at": "2025-01-25T00:00:00+08:00",
+      "sample_id": "C0071-sample",
+      "observed_at": "2025-01-24T00:00:00+08:00",
+      "known_at": "2025-01-26T00:00:00+08:00",
       "repair_before": false,
-      "result": "pass"
+      "result": "defect"
     },
     {
       "request": "V73",
@@ -8146,7 +8164,7 @@
       "observed_at": "2025-01-26T00:00:00+08:00",
       "known_at": "2025-01-28T00:00:00+08:00",
       "repair_before": false,
-      "result": "defect"
+      "result": "pass"
     },
     {
       "request": "V75",
@@ -8166,7 +8184,7 @@
       "observed_at": "2025-01-30T00:00:00+08:00",
       "known_at": "2025-02-01T00:00:00+08:00",
       "repair_before": false,
-      "result": "pass"
+      "result": "defect"
     },
     {
       "request": "V80",
@@ -8186,7 +8204,7 @@
       "observed_at": "2025-03-10T00:00:00+08:00",
       "known_at": "2025-03-12T00:00:00+08:00",
       "repair_before": false,
-      "result": "defect"
+      "result": "pass"
     },
     {
       "request": "V82",
@@ -8199,12 +8217,22 @@
       "result": "pass"
     },
     {
-      "request": "V85",
-      "component": "C0085",
+      "request": "V87",
+      "component": "C0087",
       "sample_scope": "component",
-      "sample_id": "C0085-sample",
-      "observed_at": "2025-03-14T00:00:00+08:00",
-      "known_at": "2025-04-26T00:00:00+08:00",
+      "sample_id": "C0087-sample",
+      "observed_at": "2025-03-16T00:00:00+08:00",
+      "known_at": "2025-03-18T00:00:00+08:00",
+      "repair_before": false,
+      "result": "pass"
+    },
+    {
+      "request": "V88",
+      "component": "C0088",
+      "sample_scope": "component",
+      "sample_id": "C0088-sample",
+      "observed_at": "2025-03-17T00:00:00+08:00",
+      "known_at": "2025-03-19T00:00:00+08:00",
       "repair_before": false,
       "result": "pass"
     },
@@ -8219,16 +8247,6 @@
       "result": "defect"
     },
     {
-      "request": "V90",
-      "component": "C0090",
-      "sample_scope": "point",
-      "sample_id": "C0090-sample",
-      "observed_at": "2025-03-09T00:00:00+08:00",
-      "known_at": "2025-03-11T00:00:00+08:00",
-      "repair_before": false,
-      "result": "pass"
-    },
-    {
       "request": "V91",
       "component": "C0091",
       "sample_scope": "component",
@@ -8236,7 +8254,27 @@
       "observed_at": "2025-03-10T00:00:00+08:00",
       "known_at": "2025-03-12T00:00:00+08:00",
       "repair_before": false,
-      "result": "defect"
+      "result": "pass"
+    },
+    {
+      "request": "V92",
+      "component": "C0092",
+      "sample_scope": "component",
+      "sample_id": "C0092-sample",
+      "observed_at": "2025-03-11T00:00:00+08:00",
+      "known_at": "2025-03-13T00:00:00+08:00",
+      "repair_before": true,
+      "result": "pass"
+    },
+    {
+      "request": "V93",
+      "component": "C0093",
+      "sample_scope": "component",
+      "sample_id": "C0093-sample",
+      "observed_at": "2025-03-12T00:00:00+08:00",
+      "known_at": "2025-03-14T00:00:00+08:00",
+      "repair_before": false,
+      "result": "pass"
     },
     {
       "request": "V95",
@@ -8247,6 +8285,16 @@
       "known_at": "2025-03-16T00:00:00+08:00",
       "repair_before": false,
       "result": "defect"
+    },
+    {
+      "request": "V96",
+      "component": "C0096",
+      "sample_scope": "component",
+      "sample_id": "C0096-sample",
+      "observed_at": "2025-03-15T00:00:00+08:00",
+      "known_at": "2025-03-17T00:00:00+08:00",
+      "repair_before": false,
+      "result": "pass"
     },
     {
       "request": "V97",
@@ -8266,7 +8314,7 @@
       "observed_at": "2025-03-17T00:00:00+08:00",
       "known_at": "2025-03-19T00:00:00+08:00",
       "repair_before": false,
-      "result": "pass"
+      "result": "defect"
     },
     {
       "request": "V100",
@@ -8289,22 +8337,12 @@
       "result": "pass"
     },
     {
-      "request": "V105",
-      "component": "C0105",
+      "request": "V106",
+      "component": "C0106",
       "sample_scope": "component",
-      "sample_id": "C0105-sample",
-      "observed_at": "2025-03-14T00:00:00+08:00",
-      "known_at": "2025-03-16T00:00:00+08:00",
-      "repair_before": false,
-      "result": "pass"
-    },
-    {
-      "request": "V110",
-      "component": "C0110",
-      "sample_scope": "component",
-      "sample_id": "C0110-sample",
-      "observed_at": "2025-03-09T00:00:00+08:00",
-      "known_at": "2025-03-11T00:00:00+08:00",
+      "sample_id": "C0106-sample",
+      "observed_at": "2025-03-15T00:00:00+08:00",
+      "known_at": "2025-03-17T00:00:00+08:00",
       "repair_before": false,
       "result": "pass"
     },
@@ -8326,6 +8364,26 @@
       "observed_at": "2025-03-14T00:00:00+08:00",
       "known_at": "2025-03-16T00:00:00+08:00",
       "repair_before": true,
+      "result": "pass"
+    },
+    {
+      "request": "V117",
+      "component": "C0117",
+      "sample_scope": "point",
+      "sample_id": "C0117-sample",
+      "observed_at": "2025-03-16T00:00:00+08:00",
+      "known_at": "2025-03-18T00:00:00+08:00",
+      "repair_before": false,
+      "result": "pass"
+    },
+    {
+      "request": "V119",
+      "component": "C0119",
+      "sample_scope": "component",
+      "sample_id": "C0119-sample",
+      "observed_at": "2025-03-18T00:00:00+08:00",
+      "known_at": "2025-04-30T00:00:00+08:00",
+      "repair_before": false,
       "result": "pass"
     },
     {
@@ -8356,7 +8414,7 @@
       "observed_at": "2025-03-13T00:00:00+08:00",
       "known_at": "2025-03-15T00:00:00+08:00",
       "repair_before": false,
-      "result": "defect"
+      "result": "pass"
     },
     {
       "request": "V125",
@@ -8366,7 +8424,7 @@
       "observed_at": "2025-03-14T00:00:00+08:00",
       "known_at": "2025-03-16T00:00:00+08:00",
       "repair_before": false,
-      "result": "pass"
+      "result": "defect"
     },
     {
       "request": "V126",
@@ -8396,7 +8454,7 @@
       "observed_at": "2025-03-11T00:00:00+08:00",
       "known_at": "2025-03-13T00:00:00+08:00",
       "repair_before": false,
-      "result": "defect"
+      "result": "pass"
     },
     {
       "request": "V133",
@@ -8406,7 +8464,7 @@
       "observed_at": "2025-03-12T00:00:00+08:00",
       "known_at": "2025-03-14T00:00:00+08:00",
       "repair_before": false,
-      "result": "pass"
+      "result": "defect"
     },
     {
       "request": "V135",
@@ -8416,7 +8474,7 @@
       "observed_at": "2025-03-14T00:00:00+08:00",
       "known_at": "2025-03-16T00:00:00+08:00",
       "repair_before": false,
-      "result": "pass"
+      "result": "defect"
     },
     {
       "request": "V138",
@@ -8436,7 +8494,7 @@
       "observed_at": "2025-03-18T00:00:00+08:00",
       "known_at": "2025-03-20T00:00:00+08:00",
       "repair_before": false,
-      "result": "pass"
+      "result": "defect"
     },
     {
       "request": "V140",
@@ -8456,15 +8514,15 @@
       "observed_at": "2025-03-12T00:00:00+08:00",
       "known_at": "2025-03-14T00:00:00+08:00",
       "repair_before": false,
-      "result": "defect"
+      "result": "pass"
     },
     {
-      "request": "V145",
-      "component": "C0145",
+      "request": "V146",
+      "component": "C0146",
       "sample_scope": "component",
-      "sample_id": "C0145-sample",
-      "observed_at": "2025-03-14T00:00:00+08:00",
-      "known_at": "2025-03-16T00:00:00+08:00",
+      "sample_id": "C0146-sample",
+      "observed_at": "2025-03-15T00:00:00+08:00",
+      "known_at": "2025-03-17T00:00:00+08:00",
       "repair_before": false,
       "result": "pass"
     },
@@ -8476,7 +8534,17 @@
       "observed_at": "2025-03-17T00:00:00+08:00",
       "known_at": "2025-03-19T00:00:00+08:00",
       "repair_before": false,
-      "result": "defect"
+      "result": "pass"
+    },
+    {
+      "request": "V149",
+      "component": "C0149",
+      "sample_scope": "component",
+      "sample_id": "C0149-sample",
+      "observed_at": "2025-03-18T00:00:00+08:00",
+      "known_at": "2025-03-20T00:00:00+08:00",
+      "repair_before": false,
+      "result": "pass"
     },
     {
       "request": "V150",
@@ -8489,6 +8557,16 @@
       "result": "pass"
     },
     {
+      "request": "V151",
+      "component": "C0151",
+      "sample_scope": "component",
+      "sample_id": "C0151-sample",
+      "observed_at": "2025-03-10T00:00:00+08:00",
+      "known_at": "2025-03-12T00:00:00+08:00",
+      "repair_before": false,
+      "result": "pass"
+    },
+    {
       "request": "V152",
       "component": "C0152",
       "sample_scope": "component",
@@ -8496,7 +8574,7 @@
       "observed_at": "2025-03-11T00:00:00+08:00",
       "known_at": "2025-03-13T00:00:00+08:00",
       "repair_before": false,
-      "result": "defect"
+      "result": "pass"
     },
     {
       "request": "V153",
@@ -8509,12 +8587,22 @@
       "result": "pass"
     },
     {
-      "request": "V155",
-      "component": "C0155",
+      "request": "V154",
+      "component": "C0154",
       "sample_scope": "component",
-      "sample_id": "C0155-sample",
-      "observed_at": "2025-03-14T00:00:00+08:00",
-      "known_at": "2025-03-16T00:00:00+08:00",
+      "sample_id": "C0154-sample",
+      "observed_at": "2025-03-13T00:00:00+08:00",
+      "known_at": "2025-03-15T00:00:00+08:00",
+      "repair_before": false,
+      "result": "pass"
+    },
+    {
+      "request": "V157",
+      "component": "C0157",
+      "sample_scope": "component",
+      "sample_id": "C0157-sample",
+      "observed_at": "2025-03-16T00:00:00+08:00",
+      "known_at": "2025-03-18T00:00:00+08:00",
       "repair_before": false,
       "result": "pass"
     },
@@ -8525,16 +8613,6 @@
       "sample_id": "C0159-sample",
       "observed_at": "2025-03-18T00:00:00+08:00",
       "known_at": "2025-03-20T00:00:00+08:00",
-      "repair_before": false,
-      "result": "pass"
-    },
-    {
-      "request": "V160",
-      "component": "C0160",
-      "sample_scope": "component",
-      "sample_id": "C0160-sample",
-      "observed_at": "2025-04-23T00:00:00+08:00",
-      "known_at": "2025-04-25T00:00:00+08:00",
       "repair_before": false,
       "result": "pass"
     },
@@ -8556,7 +8634,7 @@
       "observed_at": "2025-04-27T00:00:00+08:00",
       "known_at": "2025-04-29T00:00:00+08:00",
       "repair_before": false,
-      "result": "defect"
+      "result": "pass"
     },
     {
       "request": "V165",
@@ -8566,7 +8644,7 @@
       "observed_at": "2025-04-28T00:00:00+08:00",
       "known_at": "2025-04-30T00:00:00+08:00",
       "repair_before": false,
-      "result": "defect"
+      "result": "pass"
     },
     {
       "request": "V170",
@@ -8576,7 +8654,7 @@
       "observed_at": "2025-04-23T00:00:00+08:00",
       "known_at": "2025-06-05T00:00:00+08:00",
       "repair_before": false,
-      "result": "pass"
+      "result": "defect"
     },
     {
       "request": "V171",
@@ -8596,7 +8674,7 @@
       "observed_at": "2025-04-25T00:00:00+08:00",
       "known_at": "2025-04-27T00:00:00+08:00",
       "repair_before": false,
-      "result": "defect"
+      "result": "pass"
     },
     {
       "request": "V174",
@@ -8606,27 +8684,27 @@
       "observed_at": "2025-04-27T00:00:00+08:00",
       "known_at": "2025-04-29T00:00:00+08:00",
       "repair_before": false,
-      "result": "defect"
+      "result": "pass"
     },
     {
-      "request": "V175",
-      "component": "C0175",
+      "request": "V177",
+      "component": "C0177",
       "sample_scope": "component",
-      "sample_id": "C0175-sample",
-      "observed_at": "2025-04-28T00:00:00+08:00",
-      "known_at": "2025-04-30T00:00:00+08:00",
-      "repair_before": false,
-      "result": "defect"
-    },
-    {
-      "request": "V180",
-      "component": "C0180",
-      "sample_scope": "point",
-      "sample_id": "C0180-sample",
-      "observed_at": "2025-04-23T00:00:00+08:00",
-      "known_at": "2025-04-25T00:00:00+08:00",
+      "sample_id": "C0177-sample",
+      "observed_at": "2025-04-30T00:00:00+08:00",
+      "known_at": "2025-05-02T00:00:00+08:00",
       "repair_before": false,
       "result": "pass"
+    },
+    {
+      "request": "V181",
+      "component": "C0181",
+      "sample_scope": "component",
+      "sample_id": "C0181-sample",
+      "observed_at": "2025-04-24T00:00:00+08:00",
+      "known_at": "2025-04-26T00:00:00+08:00",
+      "repair_before": false,
+      "result": "defect"
     },
     {
       "request": "V183",
@@ -8639,12 +8717,12 @@
       "result": "defect"
     },
     {
-      "request": "V185",
-      "component": "C0185",
+      "request": "V187",
+      "component": "C0187",
       "sample_scope": "component",
-      "sample_id": "C0185-sample",
-      "observed_at": "2025-04-28T00:00:00+08:00",
-      "known_at": "2025-04-30T00:00:00+08:00",
+      "sample_id": "C0187-sample",
+      "observed_at": "2025-04-30T00:00:00+08:00",
+      "known_at": "2025-06-12T00:00:00+08:00",
       "repair_before": false,
       "result": "pass"
     },
@@ -8656,15 +8734,15 @@
       "observed_at": "2025-05-01T00:00:00+08:00",
       "known_at": "2025-05-03T00:00:00+08:00",
       "repair_before": false,
-      "result": "defect"
+      "result": "pass"
     },
     {
-      "request": "V190",
-      "component": "C0190",
+      "request": "V192",
+      "component": "C0192",
       "sample_scope": "component",
-      "sample_id": "C0190-sample",
-      "observed_at": "2025-04-23T00:00:00+08:00",
-      "known_at": "2025-04-25T00:00:00+08:00",
+      "sample_id": "C0192-sample",
+      "observed_at": "2025-04-25T00:00:00+08:00",
+      "known_at": "2025-04-27T00:00:00+08:00",
       "repair_before": false,
       "result": "pass"
     },
@@ -8676,7 +8754,7 @@
       "observed_at": "2025-04-26T00:00:00+08:00",
       "known_at": "2025-04-28T00:00:00+08:00",
       "repair_before": false,
-      "result": "defect"
+      "result": "pass"
     },
     {
       "request": "V194",
@@ -8689,12 +8767,12 @@
       "result": "pass"
     },
     {
-      "request": "V195",
-      "component": "C0195",
+      "request": "V197",
+      "component": "C0197",
       "sample_scope": "component",
-      "sample_id": "C0195-sample",
-      "observed_at": "2025-04-28T00:00:00+08:00",
-      "known_at": "2025-04-30T00:00:00+08:00",
+      "sample_id": "C0197-sample",
+      "observed_at": "2025-04-30T00:00:00+08:00",
+      "known_at": "2025-05-02T00:00:00+08:00",
       "repair_before": false,
       "result": "pass"
     },
@@ -8719,12 +8797,12 @@
       "result": "pass"
     },
     {
-      "request": "V200",
-      "component": "C0200",
+      "request": "V202",
+      "component": "C0202",
       "sample_scope": "component",
-      "sample_id": "C0200-sample",
-      "observed_at": "2025-04-23T00:00:00+08:00",
-      "known_at": "2025-04-25T00:00:00+08:00",
+      "sample_id": "C0202-sample",
+      "observed_at": "2025-04-25T00:00:00+08:00",
+      "known_at": "2025-04-27T00:00:00+08:00",
       "repair_before": false,
       "result": "pass"
     },
@@ -8736,7 +8814,7 @@
       "observed_at": "2025-04-26T00:00:00+08:00",
       "known_at": "2025-04-28T00:00:00+08:00",
       "repair_before": false,
-      "result": "defect"
+      "result": "pass"
     },
     {
       "request": "V205",
@@ -8746,7 +8824,17 @@
       "observed_at": "2025-04-28T00:00:00+08:00",
       "known_at": "2025-04-30T00:00:00+08:00",
       "repair_before": false,
-      "result": "defect"
+      "result": "pass"
+    },
+    {
+      "request": "V206",
+      "component": "C0206",
+      "sample_scope": "component",
+      "sample_id": "C0206-sample",
+      "observed_at": "2025-04-29T00:00:00+08:00",
+      "known_at": "2025-05-01T00:00:00+08:00",
+      "repair_before": false,
+      "result": "pass"
     },
     {
       "request": "V207",
@@ -8759,32 +8847,12 @@
       "result": "pass"
     },
     {
-      "request": "V210",
-      "component": "C0210",
-      "sample_scope": "component",
-      "sample_id": "C0210-sample",
-      "observed_at": "2025-04-23T00:00:00+08:00",
-      "known_at": "2025-04-25T00:00:00+08:00",
-      "repair_before": false,
-      "result": "pass"
-    },
-    {
       "request": "V211",
       "component": "C0211",
       "sample_scope": "component",
       "sample_id": "C0211-sample",
       "observed_at": "2025-04-24T00:00:00+08:00",
       "known_at": "2025-04-26T00:00:00+08:00",
-      "repair_before": false,
-      "result": "defect"
-    },
-    {
-      "request": "V215",
-      "component": "C0215",
-      "sample_scope": "component",
-      "sample_id": "C0215-sample",
-      "observed_at": "2025-04-28T00:00:00+08:00",
-      "known_at": "2025-04-30T00:00:00+08:00",
       "repair_before": false,
       "result": "pass"
     },
@@ -8796,67 +8864,17 @@
       "observed_at": "2025-04-30T00:00:00+08:00",
       "known_at": "2025-05-02T00:00:00+08:00",
       "repair_before": false,
-      "result": "pass"
-    },
-    {
-      "request": "V220",
-      "component": "C0220",
-      "sample_scope": "component",
-      "sample_id": "C0220-sample",
-      "observed_at": "2025-04-23T00:00:00+08:00",
-      "known_at": "2025-04-25T00:00:00+08:00",
-      "repair_before": false,
-      "result": "pass"
-    },
-    {
-      "request": "V225",
-      "component": "C0225",
-      "sample_scope": "point",
-      "sample_id": "C0225-sample",
-      "observed_at": "2025-04-28T00:00:00+08:00",
-      "known_at": "2025-04-30T00:00:00+08:00",
-      "repair_before": false,
       "result": "defect"
     },
     {
-      "request": "V230",
-      "component": "C0230",
+      "request": "V219",
+      "component": "C0219",
       "sample_scope": "component",
-      "sample_id": "C0230-sample",
-      "observed_at": "2025-04-23T00:00:00+08:00",
-      "known_at": "2025-04-25T00:00:00+08:00",
-      "repair_before": true,
-      "result": "pass"
-    },
-    {
-      "request": "V235",
-      "component": "C0235",
-      "sample_scope": "component",
-      "sample_id": "C0235-sample",
-      "observed_at": "2025-04-28T00:00:00+08:00",
-      "known_at": "2025-04-30T00:00:00+08:00",
+      "sample_id": "C0219-sample",
+      "observed_at": "2025-05-02T00:00:00+08:00",
+      "known_at": "2025-05-04T00:00:00+08:00",
       "repair_before": false,
       "result": "pass"
-    },
-    {
-      "request": "V237",
-      "component": "C0237",
-      "sample_scope": "component",
-      "sample_id": "C0237-sample",
-      "observed_at": "2025-04-30T00:00:00+08:00",
-      "known_at": "2025-05-02T00:00:00+08:00",
-      "repair_before": false,
-      "result": "defect"
-    },
-    {
-      "request": "V238",
-      "component": "C0238",
-      "sample_scope": "component",
-      "sample_id": "C0238-sample",
-      "observed_at": "2025-05-01T00:00:00+08:00",
-      "known_at": "2025-06-13T00:00:00+08:00",
-      "repair_before": false,
-      "result": "defect"
     }
   ],
   "inspection_options": [

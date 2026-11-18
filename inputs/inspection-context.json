@@ -12,5 +12,6 @@
     "random_candidates_minimum": 3,
     "new_panel_minimum": 2
   },
-  "note": "已知随机名额仅适用于实际随机抽取的分层；定向样本无已知概率。批内复检可提供共享证据但不自动证明全批合格。"
+  "note": "已知随机名额仅适用于实际随机抽取的分层；定向样本无已知概率。批内复检可提供共享证据但不自动证明全批合格。",
+  "random_design": "各前缀-类型层内从完整名册简单随机无放回抽样，实际样本量/层名册数为selection_probability；new-panel尚无已实施验证。名册为components，抽样独立于risk_score。"
 }
