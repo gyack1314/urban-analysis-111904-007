@@ -1,0 +1,5 @@
+# 城市更新资料契约
+
+全部楼宇、机构、居民群体、设备、交易及事件均为本地合成，不对应新闻所涉真实主体，不声称新闻中发生这些业务问题。seed.json及各同名Parquet保留完全相同的原始值；actions.json是尚未应用的后续资料。inventory.json仅记录物理大小、摘要及行数，不是业务结论。原始量纲、空值和时区按下文解释。
+
+components给building/batch/crew/type和安排前属性；screenings与features以known_at/available_at限制可用性。verification_requests.mode=random/targeted，随机样本有层内selection_probability，targeted为null。results的sample_scope为point/component，observed_at与known_at不同，repair_before决定适用状态；未验证不提供真值。splits按未来楼栋及整批隔离，crew是否进一步隔离由实现公开。inspection_options给工时/前置拆除/适用类型/shared_batch_evidence；mandatory_quota为随机最低名额。actions为迟到维修前点检，非全件合格证。

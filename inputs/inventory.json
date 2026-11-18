@@ -1,0 +1,55 @@
+{
+  "files": [
+    {
+      "path": "actions.json",
+      "bytes": 318,
+      "sha256": "3b10b8927d915a81791e0850cb219ae86a4db4600c9dfcdc73c10a3aa4b1124e"
+    },
+    {
+      "path": "components.parquet",
+      "bytes": 174250,
+      "sha256": "3e61a2255e9c089e27376b6ff0b5bdfd803adc7e2d768adca1cdefd1c88e6181",
+      "rows": 240
+    },
+    {
+      "path": "features.parquet",
+      "bytes": 228962,
+      "sha256": "ca895afa3e7d27330ff1306977829aa939611e750fbad39562a79cb55f42f431",
+      "rows": 480
+    },
+    {
+      "path": "inspection-context.json",
+      "bytes": 545,
+      "sha256": "030d2199ad4bb34a1b58df3633b5d734310d273a05e162e374d15b94c75f7fff"
+    },
+    {
+      "path": "inspection_options.parquet",
+      "bytes": 79425,
+      "sha256": "c5439b18172ca81b1399b56fe97dd96fd0791f71c57e6bf09c5f5d39cf73bf49",
+      "rows": 80
+    },
+    {
+      "path": "screenings.parquet",
+      "bytes": 168762,
+      "sha256": "4cc5d27e7a869e3e93b40e03864dab5e36ea3448727f8a54018577003017b313",
+      "rows": 240
+    },
+    {
+      "path": "seed.json",
+      "bytes": 252754,
+      "sha256": "c26917e138b9dbab1640ca5ce17583aa1fbad131c5585ce9afe3c19b0fac74b8"
+    },
+    {
+      "path": "verification_requests.parquet",
+      "bytes": 68900,
+      "sha256": "ee1b04b893396e87268ef848aee43c639997799b60fbe46ad093b264a1b1925c",
+      "rows": 105
+    },
+    {
+      "path": "verification_results.parquet",
+      "bytes": 88739,
+      "sha256": "25503509bc58edadfa4003120d67fb55cb1b764fa0db6a9810eefcabac7c539f",
+      "rows": 105
+    }
+  ]
+}

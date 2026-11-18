@@ -1,0 +1,16 @@
+{
+  "label_as_of": "2025-05-31T00:00:00+08:00",
+  "recommendation_at": "2025-06-01T00:00:00+08:00",
+  "splits": {
+    "train_prefix": "train-",
+    "validation_prefix": "validate-",
+    "future_prefix": "future-"
+  },
+  "budget_crew_hours": 28,
+  "budget_yuan": 10000,
+  "mandatory_quota": {
+    "random_candidates_minimum": 3,
+    "new_panel_minimum": 2
+  },
+  "note": "已知随机名额仅适用于实际随机抽取的分层；定向样本无已知概率。批内复检可提供共享证据但不自动证明全批合格。"
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "action": "append_verification_result",
+    "request": "V7",
+    "component": "C0007",
+    "sample_scope": "point",
+    "sample_id": "C0007-late",
+    "observed_at": "2025-01-30T00:00:00+08:00",
+    "known_at": "2025-06-02T00:00:00+08:00",
+    "repair_before": false,
+    "result": "defect"
+  }
+]
